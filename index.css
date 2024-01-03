@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: sticky;
+}
+#head{
+    position: relative;
+    position: absolute;
+    left: 600px;
+    top: -50px;
+    font-weight: bolder;
+    display: block;
+    color: green;
+    
+    
+}
+.head{
+    margin-top: 50px;
+    height:70px;
+    box-shadow: 3px 4px 20px 6px rgb(58, 55, 55);
+}
+ul{
+
+    list-style-type: none;
+    display: flex;
+    /*display: inline;*/
+    margin-left: 40px;
+    
+    font-size: 25px;
+    position: relative;
+    left: 600px;
+}
+ul, li{
+    margin-left: 60px;
+}
+ul,li,a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.logo{
+    height: 65px;
+    width: 65px;
+    position: relative;
+    bottom: 67px;
+    left: 30px;
+}
